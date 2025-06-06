@@ -20,7 +20,7 @@ while True:
     event, values = janela.read()
     if event == sg.WINDOW_CLOSED:
         break
-    elif event == ' Noa Tarefa':
+    elif event == 'Nova Tarefa':
         janela.extend_layout(janela['conteiner'], [[sg.Checkbox(''), sg.Input('')]])
     elif event == 'Resetar':
         janela.close()
